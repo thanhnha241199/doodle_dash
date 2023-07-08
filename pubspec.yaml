@@ -1,0 +1,30 @@
+name: doodle_dash
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flame: ^1.8.1
+  flame_audio: ^2.0.4
+  flutter_animate: ^4.2.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/audio/
+  - assets/images/game/
+  - assets/images/game/background/
+  fonts:
+    - family: DragonHunter
+      fonts:
+      - asset: assets/fonts/dragon-hunter-font/DragonHunter.otf
+    - family: Audiowide
+      fonts:
+      - asset: assets/fonts/Audiowide/Audiowide-Regular.ttf
